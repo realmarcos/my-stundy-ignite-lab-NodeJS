@@ -1,0 +1,15 @@
+{
+  "name": "my-stundy-ignite-lab-NodeJS",
+  "version": "1.0.0",
+  "description": "my NodeJS study applying Prisma ORM and NestJS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marcos Raimundo",
+  "license": "ISC"
+}
