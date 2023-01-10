@@ -17,3 +17,16 @@ O NestJS é uma estrutura para criação de aplicações escalaveis utilizando a
 **app.service.ts:** Um serviço básico com um único método.
 
 **main.ts:** O arquivo de entrada do aplicativo que usa a função principal NestFactorypara criar uma instância do aplicativo Nest.
+
+### Controllers
+
+São os *controladores* da aplicação que lidam com a acamada externa tratando diretamente as requsições HTTP.
+
+### Providers
+
+São os casos de usos ou *serviços* da aplicação onde normalmente ficam as regras de negócio.
+Exemplo: create, update, delete and find.
+
+### Modules
+
+Um módulo é uma classe anotada com um @Module() decorador. O @Module() decorador fornece metadados que o Nest usa para organizar a estrutura do aplicativo.
