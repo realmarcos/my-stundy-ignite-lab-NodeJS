@@ -6,7 +6,7 @@ O NestJS é uma estrutura para criação de aplicações escalaveis utilizando a
 
 -----
 
-### Estrutura básica
+### Estrutura
 
 **app.controller.ts:** Um controlador básico com uma única rota.
 

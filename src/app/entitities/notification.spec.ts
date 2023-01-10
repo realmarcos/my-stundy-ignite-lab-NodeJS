@@ -1,13 +1,13 @@
 import { Notification } from "./notification";
 
 describe("Notification", () => {
-  it("criar uma nova notificação", () => {
+  it("should be able to create a notification", () => {
     const notification = new Notification({
-      category: "teste categoria",
       content: "Uma nova notificação teste",
-      recipientId: "teste",
-      createdAt: new Date(),
+      category: "social",
+      recipientId: "example-recipient-id",
     });
+
     expect(notification).toBeTruthy();
   });
 });
